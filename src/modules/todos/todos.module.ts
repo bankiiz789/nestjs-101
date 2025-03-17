@@ -11,7 +11,6 @@ import { TodoUseCases } from './use-case';
     TodoService,
     TodoRepository,
     ...TodoUseCases,
-    { provide: 'TODO_DATA', useValue: '/src/shared/database/todos.json' },
   ],
   exports: [TodoService],
 })

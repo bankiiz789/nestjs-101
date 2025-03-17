@@ -1,7 +1,7 @@
 import { Todo } from 'src/modules/todos/domain/todos.entity';
 
-export class TodoData {
-  public todos: Todo[] = [
+export const todosMockData : Todo[] = 
+   [
     {
       id: 1,
       email: 'john.doe@example.com',
@@ -103,4 +103,4 @@ export class TodoData {
       updatedAt: '2023-05-20T13:25:15.000Z',
     },
   ];
-}
+
